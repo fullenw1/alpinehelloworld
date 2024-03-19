@@ -136,7 +136,7 @@ pipeline {
             }
         }
 
-        stage ('Test staging'){
+        stage ('Test prod'){
             agent any
             steps {
                 script {
